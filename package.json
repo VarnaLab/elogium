@@ -1,0 +1,23 @@
+{
+  "name": "elogium",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine-node ./tests/"
+  },
+  "dependencies": {
+    "organic": "0.1.1",
+    "underscore": "1.4.4",
+    "mongoose": "latest",
+    "connect": "latest",
+    "organic-httpServer": "https://github.com/outbounder/organic-httpServer/archive/master.tar.gz",
+    "organic-httpReactor": "https://github.com/outbounder/organic-httpReactor/archive/master.tar.gz",
+    "organic-alchemy": "https://github.com/outbounder/organic-alchemy/archive/master.tar.gz"
+  },
+  "devDependencies": {
+    "jasmine-node": "latest",
+    "request": "2.22.0",
+    "shelljs": "latest"
+  },
+  "license": "MIT"
+}

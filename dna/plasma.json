@@ -1,0 +1,21 @@
+{
+  "HttpReactor": {
+    "source": "node_modules/organic-httpReactor",
+    "capture": {
+      "type": "HttpRequest"
+    },
+    "reactions": {
+      "root": "context/http/reactions",
+      "extname": ".js",
+      "indexname": "index"
+    },
+    "startReactions": [
+      {
+        "source": "node_modules/connect/lib/middleware/bodyParser",
+        "uploadDir": "uploads"
+      }
+    ],
+    "endReactions": ["context/http/reactions/notfound"],
+    "exceptionReactions": ["context/http/reactions/exception"]
+  }
+}
