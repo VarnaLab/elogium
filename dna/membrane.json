@@ -1,4 +1,10 @@
 {
+  "Mongoose": {
+    "source": "plasma/Mongoose",
+    "database":{
+      "name": "elogium"
+    }
+  },
   "HttpServer": {
     "source": "node_modules/organic-httpServer",
     "port": 1337,

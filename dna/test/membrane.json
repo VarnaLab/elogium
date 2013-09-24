@@ -1,0 +1,11 @@
+{
+  "Mongoose": {
+    "database":{
+      "name": "elogium-test"
+    },
+    "recreateDatabase": true
+  },
+  "HttpServer": {
+    "port": 1338
+  }
+}

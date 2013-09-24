@@ -15,7 +15,6 @@
         "uploadDir": "uploads"
       }
     ],
-    "endReactions": ["context/http/reactions/notfound"],
-    "exceptionReactions": ["context/http/reactions/exception"]
+    "exceptionReactions": ["context/http/reactions/exception", "context/http/reactions/notfound"]
   }
 }

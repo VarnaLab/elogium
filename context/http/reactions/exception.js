@@ -1,4 +1,5 @@
 module.exports = function(err, req, res, next) {
+  if(!err.code) return next()
   res.writeHead(err.code)
-  res.end("Exception found: "+err.message)
+  res.end(err.message)
 }
